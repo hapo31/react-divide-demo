@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server";
-import { parseString } from "xml2js";
 
 import fetch from "node-fetch";
 import parseXML from "@/src/util/parseXML";
