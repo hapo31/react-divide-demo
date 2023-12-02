@@ -14,15 +14,25 @@ export default function Home() {
   return (
     <div>
       <header className={styles.copyright}>
-        Powered by{" "}
-        <a
-          href="https://weather.tsukumijima.net/"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ textDecoration: "underline" }}
-        >
-          © 2020 - 2023 天気予報 API（livedoor 天気互換）
-        </a>
+        <span>
+          Powered by{" "}
+          <a
+            href="https://weather.tsukumijima.net/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            © 2020 - 2023 天気予報 API（livedoor 天気互換）
+          </a>
+        </span>
+        <span>
+          <a
+            href="https://github.com/hapo31/react-divide-demo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🐙 Github
+          </a>
+        </span>
       </header>
 
       <main className={styles.main}>

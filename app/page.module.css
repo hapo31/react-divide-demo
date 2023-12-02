@@ -9,4 +9,11 @@
 .copyright {
   width: 100%;
   height: 5rem;
+  display: flex;
+  padding: 10px 1rem;
+  justify-content: space-between;
+}
+
+.copyright a {
+  text-decoration: underline;
 }
