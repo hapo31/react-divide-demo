@@ -440,7 +440,7 @@ const userPostSelector = selectorFamily<UserPost, { postId: string }>({
 `selectorFamily` とは、簡単に言えば **Key-Value の形式を取ることが出来る selector** です。  
 通常の atom/selector は単一の存在で、そこから取り出せるデータは常に1種類だけでした。
 
-この `selectorAtom/selectorFamily` はキーを取ることが出来、異なるキーを渡した場合は違うデータが格納/取得されるようにすることが出来ます。  
+この `atomFamily/selectorFamily` はキーを取ることが出来、異なるキーを渡した場合は違うデータが格納/取得されるようにすることが出来ます。  
 
 この性質はまさに分割統治の考え方に最適です。  
 まだピンと来ないみなさんのために、実際に使用例を見ていきましょう。
